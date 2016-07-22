@@ -13,10 +13,7 @@ import java.util.List;
  * Created by Администратор on 19.07.16.
  */
 public class MainServlet extends HttpServlet {
-    String jsp = "headers.jsp";
     List<Tasks> result = new ArrayList<>();;
-private String page = new String();
-
 
 
     @Override
